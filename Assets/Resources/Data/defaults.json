@@ -1,0 +1,32 @@
+{
+   "Identity":{
+         "name":"",
+         "type":"surface"
+   },
+   "Mover":{
+         "x_pos":0,
+         "y_pos":0,
+         "maxmove":3
+   },
+   "Detector":{
+         "surf":3,
+         "air":10,
+         "es":15,
+         "sonar":300;
+
+   },
+   "Attack":{
+         "weapons":[
+            {
+               "name":"Test Weapon",
+               "count":1,
+               "lethality":1,
+               "range":1,
+               "prob_of_hit":80
+            }
+         ]
+   },
+   "Health":{
+         "defense":10
+   }
+}

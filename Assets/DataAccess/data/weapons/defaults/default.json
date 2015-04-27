@@ -1,0 +1,13 @@
+{
+"Test Weapon":
+    {
+        "class": "DEF",
+        "name": "DefaultWeapon",
+        "type": "Surface",
+        "range": 50,
+        "prob_of_hit": 100,
+        "lethality": 50,
+        "max_rate": 5
+    }
+         
+}

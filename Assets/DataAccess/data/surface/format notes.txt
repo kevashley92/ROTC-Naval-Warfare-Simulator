@@ -1,0 +1,9 @@
+    "format_notes": [
+        "Hit probabilities from EOY Ex - Probability of Hit Table Update (1)",
+        "-1 represents N/A",
+        "0 for range represents in-block-only",
+        "1001 for range represents Unlimited",
+        "-2 for range corresponds to a weird thing on the chart- SONAR: In block, 1 block and 3 block (CZ) but NO contact 2 blocks away!",
+        "Not all armaments have SAM or ASUW range!",
+        "If hit probability is -1, this indicates that there are multiple probabilities based on target."
+    ],

@@ -1,0 +1,424 @@
+{    "Text_FA18(Air)_name": {
+        "Identity": {
+            "class": "FA18(Air)",
+            "name": "Text_FA18(Air)_name",
+            "function": "Text_FA18(Air)_function",
+            "type": "Text_FA18(Air)_type"
+        },
+        "Health": {
+            "defense": 1,
+            "currenthealth": 1
+        },
+        "Mover": {
+            "fuel_limit": 780,
+            "maxmove": 750
+        },
+        "Detector": {
+            "radar_air": 90,
+            "radar_surf": 90,
+            "radar_sub": 0
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "class": "AIM-9",
+                    "name": "Text_AIM-9_name",
+                    "type": "Text_AIM-9_type",
+                    "range": 12,
+                    "prob_of_hit": 60,
+                    "lethality": 25,
+                    "max_rate": 2,
+                    "count": 4
+                },
+                {
+                    "class": "AIM-120",
+                    "name": "Text_AIM-120_name",
+                    "type": "Text_AIM-120_type",
+                    "range": 40,
+                    "prob_of_hit": 50,
+                    "lethality": 25,
+                    "max_rate": 2,
+                    "count": 2
+                }
+            ]
+        }
+    },
+    "Text_FA18(Strike)_name": {
+        "Identity": {
+            "class": "FA18(Strike)",
+            "name": "Text_FA18(Strike)_name",
+            "function": "Text_FA18(Strike)_function",
+            "type": "Text_FA18(Strike)_type"
+        },
+        "Health": {
+            "defense": 1,
+            "currenthealth": 1
+        },
+        "Mover": {
+            "fuel_limit": 780,
+            "maxmove": 750
+        },
+        "Detector": {
+            "radar_air": 90,
+            "radar_surf": 90,
+            "radar_sub": 0
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "class": "AIM-9",
+                    "name": "Text_AIM-9_name",
+                    "type": "Text_AIM-9_type",
+                    "range": 12,
+                    "prob_of_hit": 60,
+                    "lethality": 25,
+                    "max_rate": 2,
+                    "count": 2
+                },
+                {
+                    "class": "AGM-84H",
+                    "name": "Text_AGM-84H_name",
+                    "type": "Text_AGM-84H_type",
+                    "range": 145,
+                    "prob_of_hit": 80,
+                    "lethality": 20,
+                    "max_rate": 2,
+                    "count": 4
+                },
+                {
+                    "class": "JDAM",
+                    "name": "Text_JDAM_name",
+                    "type": "Text_JDAM_type",
+                    "range": 15,
+                    "prob_of_hit": 85,
+                    "lethality": 30,
+                    "max_rate": 2,
+                    "count": 1
+                }
+            ]
+        }
+    },
+    "Text_EA-6B_name": {
+        "Identity": {
+            "class": "EA-6B",
+            "name": "Text_EA-6B_name",
+            "function": "Text_EA-6B_function",
+            "type": "Text_EA-6B_type"
+        },
+        "Health": {
+            "defense": 1,
+            "currenthealth": 1
+        },
+        "Mover": {
+            "fuel_limit": 2000,
+            "maxmove": 400
+        },
+        "Detector": {
+            "radar_air": 90,
+            "radar_surf": 90,
+            "radar_sub": 0
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "class": "AGM-88",
+                    "name": "Text_AGM-88_name",
+                    "type": "Text_AGM-88_type",
+                    "range": 81,
+                    "prob_of_hit": 65,
+                    "lethality": 15,
+                    "max_rate": 2,
+                    "count": 2
+                }
+            ]
+        }
+    },
+    "Text_EA-18G_name": {
+        "Identity": {
+            "class": "EA-18G",
+            "name": "Text_EA-18G_name",
+            "function": "Text_EA-18G_function",
+            "type": "Text_EA-18G_type"
+        },
+        "Health": {
+            "defense": 1,
+            "currenthealth": 1
+        },
+        "Mover": {
+            "fuel_limit": 780,
+            "maxmove": 750
+        },
+        "Detector": {
+            "radar_air": 90,
+            "radar_surf": 90,
+            "radar_sub": 0
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "class": "AIM-120",
+                    "name": "Text_AIM-120_name",
+                    "type": "Text_AIM-120_type",
+                    "range": 40,
+                    "prob_of_hit": 50,
+                    "lethality": 25,
+                    "max_rate": 2,
+                    "count": 2
+                },
+                {
+                    "class": "AGM-88",
+                    "name": "Text_AGM-88_name",
+                    "type": "Text_AGM-88_type",
+                    "range": 81,
+                    "prob_of_hit": 65,
+                    "lethality": 15,
+                    "max_rate": 2,
+                    "count": 2
+                }
+            ]
+        }
+    },
+    "Text_MH60R_name": {
+        "Identity": {
+            "class": "MH60R",
+            "name": "Text_MH60R_name",
+            "function": "Text_MH60R_function",
+            "type": "Text_MH60R_type"
+        },
+        "Health": {
+            "defense": 1,
+            "currenthealth": 1
+        },
+        "Mover": {
+            "x_pos": 0,
+            "y_pos": 0,
+            "fuel_limit": 250,
+            "maxmove": 100
+        },
+        "Detector": {
+            "radar_air": 80,
+            "radar_surf": 80,
+            "radar_sub": 10
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "class": "MK-54",
+                    "name": "Text_MK-54_name",
+                    "type": "Text_MK-54_type",
+                    "range": 6,
+                    "prob_of_hit": 45,
+                    "lethality": 40,
+                    "max_rate": 3,
+                    "count": 3
+                },
+                {
+                    "class": "AGM-114",
+                    "name": "Text_AGM-114_name",
+                    "type": "Text_AGM-114_type",
+                    "range": "2.5",
+                    "prob_of_hit": 70,
+                    "lethality": 15,
+                    "max_rate": 4,
+                    "count": 4
+                }
+            ]
+        }
+    },
+    "Text_MH60S_name": {
+        "Identity": {
+            "class": "MH60S",
+            "name": "Text_MH60S_name",
+            "function": "Text_MH60S_function",
+            "type": "Text_MH60S_type"
+        },
+        "Health": {
+            "defense": 1,
+            "currenthealth": 1
+        },
+        "Mover": {
+            "fuel_limit": 250,
+            "maxmove": 100
+        },
+        "Detector": {
+            "radar_air": 40,
+            "radar_surf": 40,
+            "radar_sub": 0
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "class": "AGM-114",
+                    "name": "Text_AGM-114_name",
+                    "type": "Text_AGM-114_type",
+                    "range": "2.5",
+                    "prob_of_hit": 70,
+                    "lethality": 15,
+                    "max_rate": 4,
+                    "count": 8
+                }
+            ]
+        }
+    },
+    "Text_E2-C_name": {
+        "Identity": {
+            "class": "E2-C",
+            "name": "Text_E2-C_name",
+            "function": "Text_E2-C_function",
+            "type": "Text_E2-C_type"
+        },
+        "Health": {
+            "defense": 1,
+            "currenthealth": 1
+        },
+        "Mover": {
+            "fuel_limit": 1400,
+            "maxmove": 250
+        },
+        "Detector": {
+            "radar_air": 300,
+            "radar_surf": 200,
+            "radar_sub": 0
+        },
+        "Attack": {
+            "weapons": []
+        }
+    },
+    "Text_P3_name": {
+        "Identity": {
+            "class": "P3",
+            "name": "Text_P3_name",
+            "function": "Text_P3_function",
+            "type": "Text_P3_type"
+        },
+        "Health": {
+            "defense": 1,
+            "currenthealth": 1
+        },
+        "Mover": {
+            "fuel_limit": 2300,
+            "maxmove": 320
+        },
+        "Detector": {
+            "radar_air": 80,
+            "radar_surf": 80,
+            "radar_sub": 10
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "class": "MK-54",
+                    "name": "Text_MK-54_name",
+                    "type": "Text_MK-54_type",
+                    "range": 6,
+                    "prob_of_hit": 45,
+                    "lethality": 40,
+                    "max_rate": 3,
+                    "count": 3
+                },
+                {
+                    "class": "AGM-84H",
+                    "name": "Text_AGM-84H_name",
+                    "type": "Text_AGM-84H_type",
+                    "range": 145,
+                    "prob_of_hit": 80,
+                    "lethality": 20,
+                    "max_rate": 2,
+                    "count": 2
+                }
+            ]
+        }
+    },
+    "Text_EP3E_name": {
+        "Identity": {
+            "class": "EP3E",
+            "name": "Text_EP3E_name",
+            "function": "Text_EP3E_function",
+            "type": "Text_EP3E_type"
+        },
+        "Health": {
+            "defense": 1,
+            "currenthealth": 1
+        },
+        "Mover": {
+            "fuel_limit": 2300,
+            "maxmove": 350
+        },
+        "Detector": {
+            "radar_air": 80,
+            "radar_surf": 80,
+            "radar_sub": 0
+        },
+        "Attack": {
+            "weapons": []
+        }
+    },
+    "Text_AV-8B_name": {
+        "Identity": {
+            "class": "AV-8B",
+            "name": "Text_AV-8B_name",
+            "function": "Text_AV-8B_function",
+            "type": "Text_AV-8B_type"
+        },
+        "Health": {
+            "defense": 1,
+            "currenthealth": 1
+        },
+        "Mover": {
+            "fuel_limit": 1200,
+            "maxmove": 400
+        },
+        "Detector": {
+            "radar_air": 80,
+            "radar_surf": 80,
+            "radar_sub": 0
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "class": "AIM-9",
+                    "name": "Text_AIM-9_name",
+                    "type": "Text_AIM-9_type",
+                    "range": 12,
+                    "prob_of_hit": 60,
+                    "lethality": 25,
+                    "max_rate": 2,
+                    "count": 2
+                },
+                {
+                    "class": "JDAM",
+                    "name": "Text_JDAM_name",
+                    "type": "Text_JDAM_type",
+                    "range": 15,
+                    "prob_of_hit": 85,
+                    "lethality": 30,
+                    "max_rate": 2,
+                    "count": 2
+                }
+            ]
+        }
+    },
+    "Text_CH53E_name": {
+        "Identity": {
+            "class": "CH53E",
+            "name": "Text_CH53E_name",
+            "function": "Text_CH53E_function",
+            "type": "Text_CH53E_type"
+        },
+        "Health": {
+            "defense": 1,
+            "currenthealth": 1
+        },
+        "Mover": {
+            "fuel_limit": 540,
+            "maxmove": 150
+        },
+        "Detector": {
+            "radar_air": 50,
+            "radar_surf": 50,
+            "radar_sub": 0
+        },
+        "Attack": {
+            "weapons": []
+        }
+    }}

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e9359996297611649be788823371d172
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - loginSuccess: {fileID: 8300000, guid: 6f9870e632c758344a3416155d402a2f, type: 3}
+  - loginFailure: {fileID: 8300000, guid: f7d918451fe5b4142b1425801e2de085, type: 3}
+  - hostSelector: {instanceID: 0}
+  - hostSelector2: {instanceID: 0}
+  - gamePasswordInput: {instanceID: 0}
+  - gameNameInput: {instanceID: 0}
+  - userPasswordInput: {instanceID: 0}
+  - ipInput: {instanceID: 0}
+  - invalidPasswordLabel: {instanceID: 0}
+  - userInvalidPasswordLabel: {instanceID: 0}
+  - adminViewPanel: {instanceID: 0}
+  - userViewPanel: {instanceID: 0}
+  - passwordPanel: {instanceID: 0}
+  - settingsPanel: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

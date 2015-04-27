@@ -1,0 +1,565 @@
+{
+    "format_notes": [
+        "Hit probabilities from EOY Ex - Probability of Hit Table Update (1)",
+        "-1 represents N/A",
+        "0 for range represents in-block-only",
+        "1001 for range represents Unlimited",
+        "-2 for range corresponds to a weird thing on the chart- SONAR: In block, 1 block and 3 block (CZ) but NO contact 2 blocks away!",
+        "Not all armaments have SAM or ASUW range!",
+        "If hit probability is -1, this indicates that there are multiple probabilities based on target."
+    ],
+    "surface": [
+        {
+            "Identity": {
+                "name": "CVN",
+                "type": "surface"
+            },
+            "Mover": {
+                "x_pos": 0,
+                "y_pos": 0,
+                "maxmove": 4
+            },
+            "Detectors": {
+                "surf": 3,
+                "air": 10,
+                "es": 15,
+                "sonar": -1
+            },
+            "Attack": [
+                {
+                    "name": "Sea Sparrow",
+                    "count": 1,
+                    "lethality": 1,
+                    "range": 1,
+                    "prob_of_hit": 80
+                }
+            ],
+            "Health": {
+                "defense": 10
+            },
+            "notes": ""
+        },
+        {
+            "Identity": {
+                "name": "DDG",
+                "type": "surface"
+            },
+            "Mover": {
+                "x_pos": 0,
+                "y_pos": 0,
+                "maxmove": 3
+            },
+            "Detectors": {
+                "surf": 3,
+                "air": 25,
+                "es": 15,
+                "sonar": 0
+            },
+            "Attack": [
+                {
+                    "name": "Tomahawk",
+                    "count": 24,
+                    "lethality": 4,
+                    "range": 1001,
+                    "prob_of_hit": -1,
+                    "hit_land": 90
+                },
+                {
+                    "name": "Sea Sparrow",
+                    "count": 64,
+                    "lethality": 1,
+                    "range": 3,
+                    "prob_of_hit": 80,
+                    "_note": "count is 16*4, unsure of significance"
+                },
+                {
+                    "name": "SM-2",
+                    "count": 56,
+                    "lethality": 2,
+                    "range": -1,
+                    "sam_range": 10,
+                    "asuw_range": 3,
+                    "prob_of_hit": -1,
+                    "hit_air": 70,
+                    "hit_surf": 30,
+                    "_note": "SAM and ASUW ranges present"
+                },
+                {
+                    "name": "Mk-46",
+                    "count": 1,
+                    "lethality": 1,
+                    "range": 0,
+                    "prob_of_hit": 10
+                }
+            ],
+            "Health": {
+                "defense": 6
+            },
+            "notes": ""
+        },
+        {
+            "Identity": {
+                "name": "CG",
+                "type": "surface"
+            },
+            "Mover": {
+                "x_pos": 0,
+                "y_pos": 0,
+                "maxmove": 3
+            },
+            "Detectors": {
+                "surf": 3,
+                "air": 25,
+                "es": 15,
+                "sonar": 0
+            },
+            "Attack": [
+                {
+                    "name": "Tomahawk",
+                    "count": 24,
+                    "lethality": 4,
+                    "range": 1001,
+                    "prob_of_hit": -1,
+                    "hit_land": 90
+                },
+                {
+                    "name": "Sea Sparrow",
+                    "count": 64,
+                    "lethality": 1,
+                    "range": 3,
+                    "prob_of_hit": 80,
+                    "_note": "count is 16*4, unsure of significance"
+                },
+                {
+                    "name": "SM-2",
+                    "count": 56,
+                    "lethality": 2,
+                    "range": -1,
+                    "sam_range": 10,
+                    "asuw_range": 3,
+                    "prob_of_hit": -1,
+                    "hit_air": 70,
+                    "hit_surf": 30,
+                    "_note": "SAM and ASUW ranges present"
+                },
+                {
+                    "name": "Mk-46",
+                    "count": 1,
+                    "lethality": 1,
+                    "range": 0,
+                    "prob_of_hit": 10
+                }
+            ],
+            "Health": {
+                "defense": 6
+            },
+            "notes": ""
+        },
+        {
+            "Identity": {
+                "name": "FFG",
+                "type": "surface"
+            },
+            "Mover": {
+                "x_pos": 0,
+                "y_pos": 0,
+                "maxmove": 3
+            },
+            "Detectors": {
+                "surf": 3,
+                "air": 10,
+                "es": 15,
+                "sonar": 0
+            },
+            "Attack": [
+                {
+                    "name": "Mk-46",
+                    "count": 1,
+                    "lethality": 1,
+                    "range": 0,
+                    "prob_of_hit": 10
+                }
+            ],
+            "Health": {
+                "defense": 5
+            },
+            "notes": ""
+        },
+        {
+            "Identity": {
+                "name": "LPD",
+                "type": "surface"
+            },
+            "Mover": {
+                "x_pos": 0,
+                "y_pos": 0,
+                "maxmove": 3
+            },
+            "Detectors": {
+                "surf": 3,
+                "air": -1,
+                "es": -1,
+                "sonar": -1
+            },
+            "Attack": [
+                {
+                    "name": "RAM",
+                    "count": 1,
+                    "lethality": 1,
+                    "range": 1,
+                    "prob_of_hit": 80
+                }
+            ],
+            "Health": {
+                "defense": 8
+            },
+            "notes": ""
+        }
+    ],
+    "subsurface": [
+        {
+            "Identity": {
+                "name": "SSN (LA)",
+                "type": "subsurface"
+            },
+            "Mover": {
+                "x_pos": 0,
+                "y_pos": 0,
+                "maxmove": 3
+            },
+            "Detectors": {
+                "surf": -1,
+                "air": -1,
+                "es": -1,
+                "sonar": -2
+            },
+            "Attack": [
+                {
+                    "name": "Mk-48",
+                    "count": 24,
+                    "lethality": 6,
+                    "range": 1,
+                    "prob_of_hit": 50
+                },
+                {
+                    "name": "Tomahawk",
+                    "count": 12,
+                    "lethality": 4,
+                    "range": 1001,
+                    "prob_of_hit": -1,
+                    "hit_land": 90
+                }
+            ],
+            "Health": {
+                "defense": 6
+            },
+            "notes": ""
+        },
+        {
+            "Identity": {
+                "name": "SSN (VCS)",
+                "type": "subsurface"
+            },
+            "Mover": {
+                "x_pos": 0,
+                "y_pos": 0,
+                "maxmove": 3
+            },
+            "Detectors": {
+                "surf": -1,
+                "air": -1,
+                "es": -1,
+                "sonar": -2
+            },
+            "Attack": [
+                {
+                    "name": "Mk-48",
+                    "count": 24,
+                    "lethality": 6,
+                    "range": 1,
+                    "prob_of_hit": 50
+                },
+                {
+                    "name": "Tomahawk",
+                    "count": 12,
+                    "lethality": 4,
+                    "range": 1001,
+                    "prob_of_hit": -1,
+                    "hit_land": 90
+                }
+            ],
+            "Health": {
+                "defense": 6
+            },
+            "notes": ""
+        },
+        {
+            "Identity": {
+                "name": "SSGN",
+                "type": "subsurface"
+            },
+            "Mover": {
+                "x_pos": 0,
+                "y_pos": 0,
+                "maxmove": 3
+            },
+            "Detectors": {
+                "surf": -1,
+                "air": -1,
+                "es": -1,
+                "sonar": -2
+            },
+            "Attack": [
+                {
+                    "name": "Mk-48",
+                    "count": 24,
+                    "lethality": 6,
+                    "range": 1,
+                    "prob_of_hit": 50
+                },
+                {
+                    "name": "Tomahawk",
+                    "count": 154,
+                    "lethality": 4,
+                    "range": 1001,
+                    "prob_of_hit": -1,
+                    "hit_land": 90
+                }
+            ],
+            "Health": {
+                "defense": 6
+            },
+            "notes": ""
+        }
+    ],
+    "air": [
+        {
+            "Identity": {
+                "name": "F/A-18",
+                "config": "Fighter",
+                "type": "air"
+            },
+            "Mover": {
+                "x_pos": 0,
+                "y_pos": 0,
+                "maxmove": 20,
+                "endurance": 10,
+                "tanker": 5
+            },
+            "Detectors": {
+                "surf": -1,
+                "air": 10,
+                "es": -1,
+                "sonar": -1
+            },
+            "Attack": [
+                {
+                    "name": "Sidewinder",
+                    "count": 1,
+                    "lethality": 1,
+                    "range": 2,
+                    "prob_of_hit": 80
+                },
+                {
+                    "name": "AMRAAM",
+                    "count": 1,
+                    "lethality": 1,
+                    "range": 8,
+                    "prob_of_hit": 50
+                }
+            ],
+            "Health": {
+                "defense": 1
+            },
+            "notes": ""
+        },
+        {
+            "Identity": {
+                "name": "F/A-18",
+                "config": "strike",
+                "type": "air"
+            },
+            "Mover": {
+                "x_pos": 0,
+                "y_pos": 0,
+                "maxmove": 20,
+                "endurance": 10,
+                "tanker": 5
+            },
+            "Detectors": {
+                "surf": -1,
+                "air": 10,
+                "es": -1,
+                "sonar": -1
+            },
+            "Attack": [
+                {
+                    "name": "Harpoon",
+                    "count": 1,
+                    "lethality": 2,
+                    "range": 6,
+                    "prob_of_hit": 30
+                }
+            ],
+            "Health": {
+                "defense": 1
+            },
+            "notes": "Requires E2, MH-60R, or ship to ID surface target"
+        },
+        {
+            "Identity": {
+                "name": "E/A-18",
+                "type": "air"
+            },
+            "Mover": {
+                "x_pos": 0,
+                "y_pos": 0,
+                "maxmove": 20,
+                "endurance": 10,
+                "tanker": 5
+            },
+            "Detectors": {
+                "surf": 10,
+                "air": 20,
+                "es": 20,
+                "sonar": -1
+            },
+            "Attack": [
+                {
+                    "name": "HARM",
+                    "count": 1,
+                    "lethality": 0,
+                    "range": 7,
+                    "prob_of_hit": 30,
+                    "_note": "0 lethality, but destroys sensors"
+                }
+            ],
+            "Health": {
+                "defense": 1
+            },
+            "notes": "Requires E2, MH-60R, or ship to ID surface target <br> HARM = Sensor destroy only"
+        },
+        {
+            "Identity": {
+                "name": "E-2C",
+                "type": "air"
+            },
+            "Mover": {
+                "x_pos": 0,
+                "y_pos": 0,
+                "maxmove": 15,
+                "endurance": 30,
+                "tanker": 0
+            },
+            "Detectors": {
+                "surf": 10,
+                "air": 20,
+                "es": 20,
+                "sonar": -1
+            },
+            "Attack": [],
+            "Health": {
+                "defense": 1
+            },
+            "notes": ""
+        },
+        {
+            "Identity": {
+                "name": "MH-60R",
+                "config": "ASW",
+                "type": "air"
+            },
+            "Mover": {
+                "x_pos": 0,
+                "y_pos": 0,
+                "maxmove": 10,
+                "endurance": 20,
+                "tanker": 0
+            },
+            "Detectors": {
+                "surf": 15,
+                "air": -1,
+                "es": 20,
+                "sonar": -1
+            },
+            "Attack": [
+                {
+                    "name": "Mk-46",
+                    "count": 2,
+                    "lethality": 1,
+                    "range": 0,
+                    "prob_of_hit": 10
+                }
+            ],
+            "Health": {
+                "defense": 1
+            },
+            "notes": "Unlimited stores refill after RTB <br> Cannot land 2 on one ship (except CVN)"
+        },
+        {
+            "Identity": {
+                "name": "MH-60R",
+                "config": "ASUW",
+                "type": "air"
+            },
+            "Mover": {
+                "x_pos": 0,
+                "y_pos": 0,
+                "maxmove": 10,
+                "endurance": 20,
+                "tanker": 0
+            },
+            "Detectors": {
+                "surf": 15,
+                "air": -1,
+                "es": 20,
+                "sonar": -1
+            },
+            "Attack": [
+                {
+                    "name": "Hellfire",
+                    "count": 4,
+                    "lethality": 1,
+                    "range": 0,
+                    "prob_of_hit": 80
+                }
+            ],
+            "Health": {
+                "defense": 1
+            },
+            "notes": "no defensive strength specified in sheet, I've put it in as 1 like the rest of the aircraft"
+        },
+        {
+            "Identity": {
+                "name": "MH-60S",
+                "type": "air"
+            },
+            "Mover": {
+                "x_pos": 0,
+                "y_pos": 0,
+                "maxmove": 10,
+                "endurance": 20,
+                "tanker": 0
+            },
+            "Detectors": {
+                "surf": -1,
+                "air": -1,
+                "es": -1,
+                "sonar": -1
+            },
+            "Attack": [
+                {
+                    "name": "Hellfire",
+                    "count": 4,
+                    "lethality": 1,
+                    "range": 0,
+                    "prob_of_hit": 80
+                }
+            ],
+            "Health": {
+                "defense": 1
+            },
+            "notes": "No Hellfire in SAR mode"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+[Movement]
+LeftArrow : Move MapCamera -x
+RightArrow : Move MapCamera +x
+UpArrow : Move MapCamera +y
+DownArrow : Move MapCamera -y
+Equal : Zoom in (Ortho +)
+Minus : Zoom out (Ortho -)

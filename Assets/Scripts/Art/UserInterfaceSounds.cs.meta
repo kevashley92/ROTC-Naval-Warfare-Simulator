@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2e9e965fd26af4e4fb28dc345c6b1618
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - option_highlighting: {fileID: 8300000, guid: 71b5be06c8a76fd41b3d6c0e4aa479a3,
+      type: 3}
+  - option_selection: {fileID: 8300000, guid: 425db7fcde31dea4e8bf21ca93af3cb8, type: 3}
+  - option_rejection: {fileID: 8300000, guid: f7d918451fe5b4142b1425801e2de085, type: 3}
+  - button_down: {fileID: 8300000, guid: 5e3bea1e900a08544bdf6a56257b60ae, type: 3}
+  - button_up: {fileID: 8300000, guid: 704bf4c97e6c60649942d5a1bba94ccd, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

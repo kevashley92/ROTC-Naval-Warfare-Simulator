@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &157172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 457172}
+  - 114: {fileID: 11457180}
+  - 114: {fileID: 11457178}
+  - 114: {fileID: 11457172}
+  - 114: {fileID: 11457176}
+  - 114: {fileID: 11457174}
+  - 148: {fileID: 14857172}
+  - 148: {fileID: 14875844}
+  - 148: {fileID: 14800398}
+  - 148: {fileID: 14856328}
+  - 148: {fileID: 14893738}
+  - 148: {fileID: 14831060}
+  - 114: {fileID: 11442104}
+  m_Layer: 0
+  m_Name: Marine
+  m_TagString: Marine
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &457172
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157172}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11442104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb9cf317df7504996a0e35b5ff5860a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11457172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eac22dd9d7fabd94db077e6cb1e95b07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11457174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba98183629082e49af96b077e768911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveRange: 0
+  PossibleMovePrefab: {fileID: 0}
+  MovesParentPrefab: {fileID: 0}
+--- !u!114 &11457176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 722e293c95428c2419c77dc78457c490, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11457178
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8bbbe8802814be42ad73c4144f06e67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 0
+  CurrentHealth: 0
+--- !u!114 &11457180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cb1ebeda57fa924891236bb6c4148f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyName: 
+  MyType: 
+  Symbol: 
+  MyGuid: 
+  TeamNumber: 0
+  Visibility: 0
+  Map: 
+--- !u!148 &14800398
+NetworkView:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157172}
+  m_Enabled: 1
+  m_StateSynchronization: 1
+  m_Observed: {fileID: 11457178}
+  m_ViewID:
+    m_ID: 0
+    m_Type: 0
+--- !u!148 &14831060
+NetworkView:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157172}
+  m_Enabled: 1
+  m_StateSynchronization: 1
+  m_Observed: {fileID: 11457174}
+  m_ViewID:
+    m_ID: 0
+    m_Type: 0
+--- !u!148 &14856328
+NetworkView:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157172}
+  m_Enabled: 1
+  m_StateSynchronization: 1
+  m_Observed: {fileID: 11457172}
+  m_ViewID:
+    m_ID: 0
+    m_Type: 0
+--- !u!148 &14857172
+NetworkView:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157172}
+  m_Enabled: 1
+  m_StateSynchronization: 1
+  m_Observed: {fileID: 457172}
+  m_ViewID:
+    m_ID: 0
+    m_Type: 0
+--- !u!148 &14875844
+NetworkView:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157172}
+  m_Enabled: 1
+  m_StateSynchronization: 1
+  m_Observed: {fileID: 11457180}
+  m_ViewID:
+    m_ID: 0
+    m_Type: 0
+--- !u!148 &14893738
+NetworkView:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157172}
+  m_Enabled: 1
+  m_StateSynchronization: 1
+  m_Observed: {fileID: 11457176}
+  m_ViewID:
+    m_ID: 0
+    m_Type: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 157172}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

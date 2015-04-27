@@ -1,0 +1,33 @@
+Name: 		whoosh
+Original: 	whoosh
+Artist: 	ztrees1
+License: 	Attribution
+		http://creativecommons.org/licenses/by/3.0/
+
+Name: 		small_screwbit
+Original:	drill
+Artist:		GowlerMusic
+License: 	Attribution
+		http://creativecommons.org/licenses/by/3.0/
+		Modified
+
+Name: 		drill_connect
+Original: 	drill
+Artist: 	GowlerMusic
+License: 	Attribution
+		http://creativecommons.org/licenses/by/3.0/
+		Modified
+
+Name: 		constant_drill
+Original: 	drill
+Artist:		GowlerMusic
+License: 	Attribution
+		http://creativecommons.org/licenses/by/3.0/
+		Modified
+
+Name: 		heavy_mechanical_clash
+Original:	metal-sheet-bang
+Artist:		Razzvio
+License: 	Attribution
+		http://creativecommons.org/licenses/by/3.0/
+		Modified

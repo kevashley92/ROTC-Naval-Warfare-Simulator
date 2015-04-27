@@ -1,0 +1,18 @@
+{
+  "mcbq": {
+	"name": "Quantico",
+	"overlay": "mcbq"
+  },
+  "mcbcl": {
+	"name": "Camp Lejeune",
+	"overlay": "mcbcl"
+  },
+  "mcb29pe": {
+	"name": "29 Palms East",
+	"overlay": "mcb29pe"
+  },
+  "mcb29pw": {
+	"name": "29 Palms West",
+	"overlay": "mcb29pw"
+  }
+}

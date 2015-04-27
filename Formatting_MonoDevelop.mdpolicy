@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PolicySet name="CSC482 MonoDevelop">
+  <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/plain" />
+  <CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp">
+    <IndentSwitchBody>True</IndentSwitchBody>
+    <NamespaceBraceStyle>EndOfLine</NamespaceBraceStyle>
+    <ClassBraceStyle>EndOfLine</ClassBraceStyle>
+    <InterfaceBraceStyle>EndOfLine</InterfaceBraceStyle>
+    <StructBraceStyle>EndOfLine</StructBraceStyle>
+    <EnumBraceStyle>EndOfLine</EnumBraceStyle>
+    <MethodBraceStyle>EndOfLine</MethodBraceStyle>
+    <AnonymousMethodBraceStyle>NextLine</AnonymousMethodBraceStyle>
+    <ConstructorBraceStyle>EndOfLine</ConstructorBraceStyle>
+    <DestructorBraceStyle>EndOfLine</DestructorBraceStyle>
+    <IfElseBraceForcement>AddBraces</IfElseBraceForcement>
+    <ForBraceForcement>AddBraces</ForBraceForcement>
+    <WhileBraceForcement>AddBraces</WhileBraceForcement>
+    <UsingBraceForcement>AddBraces</UsingBraceForcement>
+    <FixedBraceForcement>AddBraces</FixedBraceForcement>
+    <ArrayInitializerBraceStyle>NextLine</ArrayInitializerBraceStyle>
+    <BeforeMethodDeclarationParentheses>False</BeforeMethodDeclarationParentheses>
+    <BeforeMethodCallParentheses>False</BeforeMethodCallParentheses>
+    <BeforeConstructorDeclarationParentheses>False</BeforeConstructorDeclarationParentheses>
+    <BeforeDelegateDeclarationParentheses>False</BeforeDelegateDeclarationParentheses>
+    <NewParentheses>False</NewParentheses>
+  </CSharpFormattingPolicy>
+  <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp">
+    <NoTabsAfterNonTabs>True</NoTabsAfterNonTabs>
+  </TextStylePolicy>
+</PolicySet>

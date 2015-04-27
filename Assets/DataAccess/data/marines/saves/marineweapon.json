@@ -1,0 +1,140 @@
+{
+    "Text_M16": {
+        "name": "Text_M16",
+        "point_range": 550,
+        "area_range": 0,
+        "casualty_radius": 0,
+        "lethality": 0,
+        "prob_of_hit": 0
+        },
+    "Text_M249": {
+        "name": "Text_M249",
+        "point_range": 1000,
+        "area_range": 0,
+        "casualty_radius": 0,
+        "lethality": 0,
+        "prob_of_hit": 0
+        },
+    "Text_M203": {
+        "name": "Text_M203",
+        "point_range": 150,
+        "area_range": 350,
+        "casualty_radius": 0,
+        "lethality": 0,
+        "prob_of_hit": 0
+        },
+    "Text_M40A5": {
+        "name": "Text_M40A5",
+        "point_range": 800,
+        "area_range": 0,
+        "casualty_radius": 0,
+        "lethality": 0,
+        "prob_of_hit": 0
+    },
+    "Text_M240B": {
+        "name": "Text_M240B",
+        "point_range": 1800,
+        "area_range": 0,
+        "casualty_radius": 0,
+        "lethality": 0,
+        "prob_of_hit": 0
+    },
+    "Text_MK153": {
+        "name": "Text_MK153",
+        "point_range": 250,
+        "area_range": 400,
+        "casualty_radius": 0,
+        "lethality": 0,
+        "prob_of_hit": 0
+    },
+    "Text_FIM-92": {
+        "name": "Text_FIM-92",
+        "point_range": 4828,
+        "area_range": 0,
+        "casualty_radius": 0,
+        "lethality": 0,
+        "prob_of_hit": 0
+    },
+    "Text_M224": {
+        "name": "Text_M224",
+        "he_range": 3500,
+        "wp_range": 3500,
+        "illum_range": 3200,
+        "point_range": 0,
+        "area_range": 0,
+        "casualty_radius": 30,
+        "lethality": 0,
+        "prob_of_hit": 0
+    },
+    "Text_M252": {
+        "name": "Text_M252",
+        "he_range": 5700,
+        "wp_range": 4500,
+        "illum_range": 5100,
+        "point_range": 0,
+        "area_range": 0,
+        "casualty_radius": 35,
+        "lethality": 0,
+        "prob_of_hit": 0
+    },
+    "Text_M777": {
+        "name": "Text_M777",
+        "point_range": 18100,
+        "rap_range": 30100,
+        "area_range": 0,
+        "casualty_radius": 50,
+        "lethality": 0,
+        "prob_of_hit": 0
+    },
+    "Text_M240G": {
+        "name": "Text_M240G",
+        "point_range": 1800,
+        "area_range": 0,
+        "casualty_radius": 0,
+        "lethality": 0,
+        "prob_of_hit": 0
+    },
+    "Text_MK-19": {
+        "name": "Text_MK-19",
+        "point_range": 1500,
+        "area_range": 0,
+        "casualty_radius": 0,
+        "lethality": 0,
+        "prob_of_hit": 0
+    },
+    "Text_M2": {
+        "name": "Text_M2",
+        "point_range": 1830,
+        "area_range": 0,
+        "casualty_radius": 0,
+        "lethality": 0,
+        "prob_of_hit": 0
+    },
+    "Text_120": {
+        "name": "Text_120",
+        "point_range": 4000,
+        "area_range": 0,
+        "casualty_radius": 0,
+        "lethality": 0,
+        "prob_of_hit": 0
+    },
+    "Text_MK-84": {
+        "name": "Text_Mk-84",
+        "point_range": 222234,
+        "area_range": 0,
+        "casualty_radius": 366,
+        "lethality": 0,
+        "prob_of_hit": 0
+    },
+    "Text_XM-218": {
+        "name": "Text_XM-218",
+        "point_range": 1830,
+        "area_range": 0,
+        "casualty_radius": 0,
+        "lethality": 0,
+        "prob_of_hit": 0
+    }
+}
+        
+        
+        

@@ -1,0 +1,362 @@
+{
+    "Identity": {
+        "class": "DefShip",
+        "name": "DefaultShip",
+        "function": "PlaceHolder",
+        "type": "surface",
+        "guid": "guid_string",
+        "visibility": 1,
+        "map": "default_map",
+        "team": 0
+    },
+    "Health": {
+        "defense": 10,
+        "currenthealth": 10
+    },
+    "Mover": {
+    	"x_pos": 0,
+    	"y_pos": 0,
+        "fuel_limit": 10,
+        "maxmove": 30
+    },
+    "Detector": {
+        "radar_air": 100,
+        "radar_surf": 100,
+        "radar_sub": 100
+    },
+    "Attack": {
+        "weapons": [{
+        "class": "UGM-109E",
+        "name": "Text_UGM-109E_name",
+        "type": "Text_UGM-109E_type",
+        "range": 900,
+        "prob_of_hit": 85,
+        "lethality": 20,
+        "max_rate": 15,
+        "count": 20
+    },
+    {
+        "class": "MK-48A",
+        "name": "Text_MK-48A_name",
+        "type": "Text_MK-48A_type",
+        "range": 20,
+        "prob_of_hit": 65,
+        "lethality": 60,
+        "max_rate": 4,
+        "count": 20
+    },
+    {
+        "class": "MK-54",
+        "name": "Text_MK-54_name",
+        "type": "Text_MK-54_type",
+        "range": 6,
+        "prob_of_hit": 45,
+        "lethality": 40,
+        "max_rate": 3,
+        "count": 20
+    },
+    {
+        "class": "MK-67",
+        "name": "Text_MK-67_name",
+        "type": "Text_MK-67_type",
+        "range": 10,
+        "prob_of_hit": 50,
+        "lethality": 40,
+        "max_rate": 2,
+        "count": 20
+    },
+    {
+        "class": "RUM-139",
+        "name": "Text_RUM-139_name",
+        "type": "Text_RUM-139_type",
+        "range": 12,
+        "prob_of_hit": 20,
+        "lethality": 40,
+        "max_rate": 15,
+        "count": 20
+    },
+    {
+        "class": "UGM-133",
+        "name": "Text_UGM-133_name",
+        "type": "Text_UGM-133_type",
+        "range": 4233,
+        "prob_of_hit": 100,
+        "lethality": 80,
+        "max_rate": 10,
+        "count": 20
+    },
+    {
+        "class": "RIM-66",
+        "name": "Text_RIM-66_name",
+        "type": "Text_RIM-66_type",
+        "range": 75,
+        "prob_of_hit": 60,
+        "lethality": 20,
+        "max_rate": 15,
+        "count": 20
+    },
+    {
+        "class": "RIM-161",
+        "name": "Text_RIM-161_name",
+        "type": "Text_RIM-161_type",
+        "range": 278,
+        "prob_of_hit": 45,
+        "lethality": 20,
+        "max_rate": 15,
+        "count": 20
+    },
+    {
+        "class": "RIM-116",
+        "name": "Text_RIM-116_name",
+        "type": "Text_RIM-116_type",
+        "range": 5,
+        "prob_of_hit": 50,
+        "lethality": 15,
+        "max_rate": 10,
+        "count": 20
+    },
+    {
+        "class": "CIWS",
+        "name": "Text_CIWS_name",
+        "type": "Text_CIWS_type",
+        "range": 2,
+        "prob_of_hit": 85,
+        "lethality": 10,
+        "max_rate": 12,
+        "count": 20
+    },
+    {
+        "class": "AIM-9",
+        "name": "Text_AIM-9_name",
+        "type": "Text_AIM-9_type",
+        "range": 12,
+        "prob_of_hit": 60,
+        "lethality": 25,
+        "max_rate": 2,
+        "count": 20
+    },
+    {
+        "class": "AIM-120",
+        "name": "Text_AIM-120_name",
+        "type": "Text_AIM-120_type",
+        "range": 40,
+        "prob_of_hit": 50,
+        "lethality": 25,
+        "max_rate": 2,
+        "count": 20
+    },
+    {
+        "class": "AGM-84H",
+        "name": "Text_AGM-84H_name",
+        "type": "Text_AGM-84H_type",
+        "range": 145,
+        "prob_of_hit": 80,
+        "lethality": 20,
+        "max_rate": 2,
+        "count": 20
+    },
+    {
+        "class": "AGM-88",
+        "name": "Text_AGM-88_name",
+        "type": "Text_AGM-88_type",
+        "range": 81,
+        "prob_of_hit": 65,
+        "lethality": 15,
+        "max_rate": 2,
+        "count": 20
+    },
+    {
+        "class": "AGM-114",
+        "name": "Text_AGM-114_name",
+        "type": "Text_AGM-114_type",
+        "range": "2.5",
+        "prob_of_hit": 70,
+        "lethality": 15,
+        "max_rate": 4,
+        "count": 20
+    },
+    {
+        "class": "JDAM",
+        "name": "Text_JDAM_name",
+        "type": "Text_JDAM_type",
+        "range": 15,
+        "prob_of_hit": 85,
+        "lethality": 30,
+        "max_rate": 2,
+        "count": 20
+    },
+    {
+        "class": "AIM-7",
+        "name": "Text_AIM-7_name",
+        "type": "Text_AIM-7_type",
+        "range": 10,
+        "prob_of_hit": 50,
+        "lethality": 25,
+        "max_rate": 2,
+        "count": 20
+    },
+    {
+        "class": "RIM-7",
+        "name": "Text_RIM-7_name",
+        "type": "Text_RIM-7_type",
+        "range": 27,
+        "prob_of_hit": 65,
+        "lethality": 20,
+        "max_rate": 4,
+        "count": 20
+    },
+    {
+        "class": "RIM-162",
+        "name": "Text_RIM-162_name",
+        "type": "Text_RIM-162_type",
+        "range": 10,
+        "prob_of_hit": 70,
+        "lethality": 20,
+        "max_rate": 4,
+        "count": 20
+    },
+    {
+        "class": "Mk-45",
+        "name": "Text_Mk-45_name",
+        "type": "Text_Mk-45_type",
+        "range": 13,
+        "prob_of_hit": 40,
+        "lethality": 15,
+        "max_rate": 6,
+        "count": 20
+    },
+    {
+        "class": "OTOM",
+        "name": "Text_OTOM_name",
+        "type": "Text_OTOM_type",
+        "range": 15,
+        "prob_of_hit": 40,
+        "lethality": 15,
+        "max_rate": 8,
+        "count": 20
+    },
+    {
+        "class": "AGM-84",
+        "name": "Text_AGM-84_name",
+        "type": "Text_AGM-84_type",
+        "range": 130,
+        "prob_of_hit": 40,
+        "lethality": 25,
+        "max_rate": 2,
+        "count": 20
+    },
+    {
+        "class": "Railgun",
+        "name": "Text_Railgun_name",
+        "type": "Text_Railgun_type",
+        "range": 180,
+        "prob_of_hit": 95,
+        "lethality": 50,
+        "max_rate": 4,
+        "count": 20
+    },
+    {
+        "class": "LAWS",
+        "name": "Text_LAWS_name",
+        "type": "Text_LAWS_type",
+        "range": 1,
+        "prob_of_hit": 85,
+        "lethality": 10,
+        "max_rate": 12,
+        "count": 20
+    },
+    {
+        "class": "CBU-100",
+        "name": "Text_CBU-100_name",
+        "type": "Text_CBU-100_type",
+        "range": 17,
+        "prob_of_hit": 80,
+        "lethality": 30,
+        "max_rate": 2,
+        "count": 20
+    },
+    {
+        "class": "DF-21D",
+        "name": "Text_DF-21D_name",
+        "type": "Text_DF-21D_type",
+        "range": 1100,
+        "prob_of_hit": 60,
+        "lethality": 60,
+        "max_rate": 1,
+        "count": 20
+    },
+    {
+        "class": "RIM-67",
+        "name": "Text_RIM-67_name",
+        "type": "Text_RIM-67_type",
+        "range": 100,
+        "prob_of_hit": 60,
+        "lethality": 20,
+        "max_rate": 15,
+        "count": 20
+    },
+    {
+        "class": "RIM-174",
+        "name": "Text_RIM-174_name",
+        "type": "Text_RIM-174_type",
+        "range": 130,
+        "prob_of_hit": 85,
+        "lethality": 30,
+        "max_rate": 15,
+        "count": 20
+    },
+    {
+        "class": "155mm-Gun",
+        "name": "Text_155mm-Gun_name",
+        "type": "Text_155mm-Gun_type",
+        "range": 13,
+        "prob_of_hit": 40,
+        "lethality": 15,
+        "max_rate": 8,
+        "count": 20
+    },
+    {
+        "class": "MK-110",
+        "name": "Text_MK-110_name",
+        "type": "Text_MK-110_type",
+        "range": "4.5",
+        "prob_of_hit": 40,
+        "lethality": 15,
+        "max_rate": 8,
+        "count": 20
+    },
+    {
+        "class": "SY-02",
+        "name": "Text_SY-02_name",
+        "type": "Text_SY-02_type",
+        "range": 50,
+        "prob_of_hit": 55,
+        "lethality": 10,
+        "max_rate": 2,
+        "count": 20
+    },
+    {
+        "class": "Gabriel",
+        "name": "Text_Gabriel_name",
+        "type": "Text_Gabriel_type",
+        "range": 40,
+        "prob_of_hit": 55,
+        "lethality": 10,
+        "max_rate": 2,
+        "count": 20
+    }]
+    },
+    "Container": {
+
+    	"guids": [],
+    	"inuse": "false"
+
+    },
+    "Embarker": {
+
+    	"state": "false",
+    	"parent": "0",
+    	"inuse": "false"
+
+    }
+}

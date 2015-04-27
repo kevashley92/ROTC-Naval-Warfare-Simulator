@@ -1,0 +1,734 @@
+{
+    "Text_FT": {
+        "Identity": {
+            "name": "Text_FT",
+            "map": "default_map"
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "name": "Text_M16",
+                    "point_range": 550,
+                    "area_range": 1,
+                    "casualty_radius": 1,
+                    "lethality": 1,
+                    "prob_of_hit": 50,
+                    "count": 30
+                },
+                {
+                    "name": "Text_M16",
+                    "point_range": 550,
+                    "area_range": 1,
+                    "casualty_radius": 1,
+                    "lethality": 1,
+                    "prob_of_hit": 30,
+                    "count": 30
+                },
+                {
+                    "name": "Text_M16",
+                    "point_range": 550,
+                    "area_range": 1,
+                    "casualty_radius": 1,
+                    "lethality": 1,
+                    "prob_of_hit": 30,
+                    "count": 30
+                },
+                {
+                    "name": "Text_M249",
+                    "point_range": 1000,
+                    "area_range": 20,
+                    "casualty_radius": 10,
+                    "lethality": 5,
+                    "prob_of_hit": 90,
+                    "count": 10
+                },
+                {
+                    "name": "Text_M203",
+                    "point_range": 150,
+                    "area_range": 350,
+                    "casualty_radius": 10,
+                    "lethality": 4,
+                    "prob_of_hit": 90,
+                    "count": 10
+                }
+            ]
+        },
+        "Health": {
+            "defense": 2,
+            "currenthealth": 2
+        },
+        "Mover": {
+            "maxmove": 25,
+            "lob": 0
+        },
+        "Detector": {
+            "visibility": 200
+        }
+    },
+    "Text_RS": {
+        "Identity": {
+            "name": "Text_RS",
+            "map": "default_map"
+        },
+        "Attack": {
+            "weapons": [
+              {
+                  "name": "Text_M16",
+                  "point_range": 550,
+                  "area_range": 1,
+                  "casualty_radius": 1,
+                  "lethality": 1,
+                  "prob_of_hit": 50,
+                  "count": 30
+              },
+              {
+                  "name": "Text_M16",
+                  "point_range": 550,
+                  "area_range": 1,
+                  "casualty_radius": 1,
+                  "lethality": 1,
+                  "prob_of_hit": 50,
+                  "count": 30
+              },
+              {
+                  "name": "Text_M16",
+                  "point_range": 550,
+                  "area_range": 1,
+                  "casualty_radius": 1,
+                  "lethality": 1,
+                  "prob_of_hit": 50,
+                  "count": 30
+              },
+              {
+                  "name": "Text_M16",
+                  "point_range": 550,
+                  "area_range": 1,
+                  "casualty_radius": 1,
+                  "lethality": 1,
+                  "prob_of_hit": 50,
+                  "count": 30
+              },
+              {
+                  "name": "Text_M16",
+                  "point_range": 550,
+                  "area_range": 1,
+                  "casualty_radius": 1,
+                  "lethality": 1,
+                  "prob_of_hit": 50,
+                  "count": 30
+              },
+              {
+                  "name": "Text_M16",
+                  "point_range": 550,
+                  "area_range": 1,
+                  "casualty_radius": 1,
+                  "lethality": 1,
+                  "prob_of_hit": 50,
+                  "count": 30
+              },
+              {
+                  "name": "Text_M16",
+                  "point_range": 550,
+                  "area_range": 1,
+                  "casualty_radius": 1,
+                  "lethality": 1,
+                  "prob_of_hit": 50,
+                  "count": 30
+              },
+              {
+                  "name": "Text_M16",
+                  "point_range": 550,
+                  "area_range": 1,
+                  "casualty_radius": 1,
+                  "lethality": 1,
+                  "prob_of_hit": 50,
+                  "count": 30
+              },
+              {
+                  "name": "Text_M16",
+                  "point_range": 550,
+                  "area_range": 1,
+                  "casualty_radius": 1,
+                  "lethality": 1,
+                  "prob_of_hit": 50,
+                  "count": 30
+              },
+              {
+                  "name": "Text_M16",
+                  "point_range": 550,
+                  "area_range": 1,
+                  "casualty_radius": 1,
+                  "lethality": 1,
+                  "prob_of_hit": 50,
+                  "count": 30
+              },
+              {
+                  "name": "Text_M249",
+                  "point_range": 1000,
+                  "area_range": 20,
+                  "casualty_radius": 10,
+                  "lethality": 5,
+                  "prob_of_hit": 90,
+                  "count": 10
+              },
+              {
+                  "name": "Text_M249",
+                  "point_range": 1000,
+                  "area_range": 20,
+                  "casualty_radius": 10,
+                  "lethality": 5,
+                  "prob_of_hit": 90,
+                  "count": 10
+              },
+              {
+                  "name": "Text_M249",
+                  "point_range": 1000,
+                  "area_range": 20,
+                  "casualty_radius": 10,
+                  "lethality": 5,
+                  "prob_of_hit": 90,
+                  "count": 10
+              },
+              {
+                  "name": "Text_M203",
+                  "point_range": 150,
+                  "area_range": 350,
+                  "casualty_radius": 10,
+                  "lethality": 4,
+                  "prob_of_hit": 90,
+                  "count": 10
+              },
+              {
+                  "name": "Text_M203",
+                  "point_range": 150,
+                  "area_range": 350,
+                  "casualty_radius": 10,
+                  "lethality": 4,
+                  "prob_of_hit": 90,
+                  "count": 10
+              },
+              {
+                  "name": "Text_M203",
+                  "point_range": 150,
+                  "area_range": 350,
+                  "casualty_radius": 10,
+                  "lethality": 4,
+                  "prob_of_hit": 90,
+                  "count": 10
+              },
+              {
+                  "name": "Text_M203",
+                  "point_range": 150,
+                  "area_range": 350,
+                  "casualty_radius": 10,
+                  "lethality": 4,
+                  "prob_of_hit": 90,
+                  "count": 10
+              }
+            ]
+        },
+        "Health": {
+            "defense": 2,
+            "currenthealth": 2
+        },
+        "Mover": {
+            "maxmove": 25,
+            "lob": 0
+        },
+        "Detector": {
+            "visibility": 200
+        }
+    },
+    "Text_SST": {
+        "Identity": {
+            "name": "Text_SST",
+            "map": "default_map"
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "name": "Text_M40A5",
+                    "point_range": 800,
+                    "area_range": 90,
+                    "casualty_radius": 300,
+                    "lethality": 10,
+                    "prob_of_hit": 70,
+                    "count": 200
+                }
+            ]
+        },
+        "Health": {
+            "defense": 2,
+            "currenthealth": 2
+        },
+        "Mover": {
+            "maxmove": 25,
+            "lob": 0
+        },
+        "Detector": {
+            "visibility": 500
+        }
+    },
+    "Text_M240G": {
+        "Identity": {
+            "name": "Text_M240G",
+            "map": "default_map"
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "name": "Text_M240B",
+                    "point_range": 1800,
+                    "area_range": 90,
+                    "casualty_radius": 20,
+                    "lethality": 10,
+                    "prob_of_hit": 60,
+                    "count": 30
+                },
+                {
+                    "name": "Text_M240B",
+                    "point_range": 1800,
+                    "area_range": 90,
+                    "casualty_radius": 20,
+                    "lethality": 10,
+                    "prob_of_hit": 60,
+                    "count": 30
+                }
+            ]
+        },
+        "Health": {
+            "defense": 2,
+            "currenthealth": 2
+        },
+        "Mover": {
+            "maxmove": 25,
+            "lob": 0
+        },
+        "Detector": {
+            "visibility": 200
+        }
+    },
+    "Text_AS": {
+        "Identity": {
+            "name": "Text_AS",
+            "map": "default_map"
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "name": "Text_MK153",
+                    "point_range": 250,
+                    "area_range": 400,
+                    "casualty_radius": 20,
+                    "lethality": 10,
+                    "prob_of_hit": 30,
+                    "count": 50
+                },
+                {
+                    "name": "Text_MK153",
+                    "point_range": 250,
+                    "area_range": 400,
+                    "casualty_radius": 20,
+                    "lethality": 10,
+                    "prob_of_hit": 30,
+                    "count": 50
+                }
+            ]
+        },
+        "Health": {
+            "defense": 2,
+            "currenthealth": 2
+        },
+        "Mover": {
+            "maxmove": 25,
+            "lob": 0
+        },
+        "Detector": {
+            "visibility": 200
+        }
+    },
+    "Text_FIM-92": {
+        "Identity": {
+            "name": "Text_FIM-92",
+            "map": "default_map"
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "name": "Text_FIM-92",
+                    "point_range": 4828,
+                    "area_range": 100,
+                    "casualty_radius": 10,
+                    "lethality": 20,
+                    "prob_of_hit": 60,
+                    "count": 60
+                }
+            ]
+        },
+        "Health": {
+            "defense": 2,
+            "currenthealth": 2
+        },
+        "Mover": {
+            "maxmove": 25,
+            "lob": -1
+        },
+        "Detector": {
+            "visibility": 200
+        }
+    },
+    "Text_M224": {
+        "Identity": {
+            "name": "Text_M224",
+            "map": "default_map"
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "name": "Text_M224",
+                    "he_range": 3500,
+                    "wp_range": 3500,
+                    "illum_range": 3200,
+                    "point_range": 200,
+                    "area_range": 20,
+                    "casualty_radius": 30,
+                    "lethality": 30,
+                    "prob_of_hit": 40,
+                    "count": 40
+                }
+            ]
+        },
+        "Health": {
+            "defense": 2,
+            "currenthealth": 2
+        },
+        "Mover": {
+            "maxmove": 25,
+            "lob": 0
+        },
+        "Detector": {
+            "visibility": 200
+        }
+    },
+    "Text_M252": {
+        "Identity": {
+            "name": "Text_M252",
+            "map": "default_map"
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "name": "Text_M252",
+                    "he_range": 5700,
+                    "wp_range": 4500,
+                    "illum_range": 5100,
+                    "point_range": 20,
+                    "area_range": 20,
+                    "casualty_radius": 35,
+                    "lethality": 20,
+                    "prob_of_hit": 50,
+                    "count": 60
+                }
+            ]
+        },
+        "Health": {
+            "defense": 2,
+            "currenthealth": 2
+        },
+        "Mover": {
+            "maxmove": 25,
+            "lob": 0
+        },
+        "Detector": {
+            "visibility": 200
+        }
+    },
+    "Text_AB": {
+        "Identity": {
+            "name": "Text_AB",
+            "map": "default_map"
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "name": "Text_M777",
+                    "point_range": 18100,
+                    "rap_range": 30100,
+                    "area_range": 20,
+                    "casualty_radius": 50,
+                    "lethality": 10,
+                    "prob_of_hit": 90,
+                    "count": 30
+                },
+                {
+                    "name": "Text_M777",
+                    "point_range": 18100,
+                    "rap_range": 30100,
+                    "area_range": 20,
+                    "casualty_radius": 50,
+                    "lethality": 10,
+                    "prob_of_hit": 90,
+                    "count": 30
+                },
+                {
+                    "name": "Text_M777",
+                    "point_range": 18100,
+                    "rap_range": 30100,
+                    "area_range": 20,
+                    "casualty_radius": 50,
+                    "lethality": 10,
+                    "prob_of_hit": 90,
+                    "count": 30
+                },
+                {
+                    "name": "Text_M777",
+                    "point_range": 18100,
+                    "rap_range": 30100,
+                    "area_range": 20,
+                    "casualty_radius": 50,
+                    "lethality": 10,
+                    "prob_of_hit": 90,
+                    "count": 30
+                },
+                {
+                    "name": "Text_M777",
+                    "point_range": 18100,
+                    "rap_range": 30100,
+                    "area_range": 20,
+                    "casualty_radius": 50,
+                    "lethality": 10,
+                    "prob_of_hit": 90,
+                    "count": 30
+                },
+                {
+                    "name": "Text_M777",
+                    "point_range": 18100,
+                    "rap_range": 30100,
+                    "area_range": 20,
+                    "casualty_radius": 50,
+                    "lethality": 10,
+                    "prob_of_hit": 90,
+                    "count": 30
+                }
+            ]
+        },
+        "Health": {
+            "defense": 2,
+            "currenthealth": 2
+        },
+        "Mover": {
+            "maxmove": 25,
+            "lob": -1
+        },
+        "Detector": {
+            "visibility": 200
+        }
+    },
+    "Text_MTVR": {
+        "Identity": {
+            "name": "Text_MTVR",
+            "map": "default_map"
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "name": "Text_M240G",
+                    "point_range": 1800,
+                    "area_range": 30,
+                    "casualty_radius": 30,
+                    "lethality": 40,
+                    "prob_of_hit": 60,
+                    "count": 60
+                }
+            ]
+        },
+        "Health": {
+            "defense": 2,
+            "currenthealth": 2
+        },
+        "Mover": {
+            "maxmove": 25,
+            "lob": 0
+        },
+        "Detector": {
+            "visibility": 175
+        }
+    },
+    "Text_AAVP7": {
+        "Identity": {
+            "name": "Text_AAVP7",
+            "map": "default_map"
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "name": "Text_MK-19",
+                    "point_range": 1500,
+                    "area_range": 10,
+                    "casualty_radius": 30,
+                    "lethality": 60,
+                    "prob_of_hit": 60,
+                    "count": 10
+                },
+                {
+                    "name": "Text_M2",
+                    "point_range": 1830,
+                    "area_range": 10,
+                    "casualty_radius": 30,
+                    "lethality": 60,
+                    "prob_of_hit": 60,
+                    "count": 10
+                }
+            ]
+        },
+        "Health": {
+            "defense": 2,
+            "currenthealth": 2
+        },
+        "Mover": {
+            "maxmove": 25,
+            "lob": 0
+        },
+        "Detector": {
+            "visibility": 200
+        }
+    },
+    "Text_M1A1": {
+        "Identity": {
+            "name": "Text_M1A1",
+            "map": "default_map"
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "name": "Text_120",
+                    "point_range": 4000,
+                    "area_range": 30,
+                    "casualty_radius": 60,
+                    "lethality": 60,
+                    "prob_of_hit": 60,
+                    "count": 60
+                },
+                {
+                    "name": "Text_M2",
+                    "point_range": 1830,
+                    "area_range": 20,
+                    "casualty_radius": 20,
+                    "lethality": 20,
+                    "prob_of_hit": 20,
+                    "count": 60
+                }
+            ]
+        },
+        "Health": {
+            "defense": 2,
+            "currenthealth": 2
+        },
+        "Mover": {
+            "maxmove": 25,
+            "lob": 0
+        },
+        "Detector": {
+            "visibility": 4000
+        }
+    },
+    "Text_AV-8": {
+        "Identity": {
+            "name": "Text_AV-8",
+            "map": "default_map"
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "name": "Text_Mk-84",
+                    "point_range": 222234,
+                    "area_range": 10,
+                    "casualty_radius": 366,
+                    "lethality": 20,
+                    "prob_of_hit": 50,
+                    "count": 70
+                }
+            ]
+        },
+        "Health": {
+            "defense": 2,
+            "currenthealth": 2
+        },
+        "Mover": {
+            "maxmove": 25,
+            "lob": -1
+        },
+        "Detector": {
+            "visibility": 2000
+        }
+    },
+    "Text_CH-53E": {
+        "Identity": {
+            "name": "Text_CH-53E",
+            "map": "default_map"
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "name": "Text_XM-218",
+                    "point_range": 1830,
+                    "area_range": 20,
+                    "casualty_radius": 20,
+                    "lethality": 20,
+                    "prob_of_hit": 60,
+                    "count": 60
+                },
+                {
+                    "name": "Text_XM-218",
+                    "point_range": 1830,
+                    "area_range": 20,
+                    "casualty_radius": 20,
+                    "lethality": 20,
+                    "prob_of_hit": 20,
+                    "count": 60
+                }
+            ]
+        },
+        "Health": {
+            "defense": 2,
+            "currenthealth": 2
+        },
+        "Mover": {
+            "maxmove": 25,
+            "lob": -1
+        },
+        "Detector": {
+            "visibility": 2000
+        }
+    },
+    "Text_MV-22": {
+        "Identity": {
+            "name": "Text_MV-22",
+            "map": "default_map"
+        },
+        "Attack": {
+            "weapons": [
+                {
+                    "name": "Text_M240B",
+                    "point_range": 1800,
+                    "area_range": 10,
+                    "casualty_radius": 20,
+                    "lethality": 10,
+                    "prob_of_hit": 20,
+                    "count": 60
+                }
+            ]
+        },
+        "Health": {
+            "defense": 2,
+            "currenthealth": 2
+        },
+        "Mover": {
+            "maxmove": 25,
+            "lob": -1
+        },
+        "Detector": {
+            "visibility": 2000
+        }
+    }
+}

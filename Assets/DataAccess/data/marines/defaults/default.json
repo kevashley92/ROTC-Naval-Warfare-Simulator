@@ -1,0 +1,243 @@
+{
+    "Identity": {
+        "name": "Text_AAVP7",
+        "map": "default_map",
+        "class": "DefSub",
+        "function": "Placeholder",
+        "type": "marine",
+        "guid": "guid_string",
+        "visibility": 1,
+        "map": "default_map",
+        "team": 0
+    },
+    "Attack": {
+        "weapons": [
+          {
+              "name": "Text_M16",
+              "type": "marine",
+              "point_range": 550,
+              "area_range": 0,
+              "casualty_radius": 0,
+              "lethality": 0,
+              "prob_of_hit": 0,
+              "range":550,
+              "count":200,
+              "max_rate": 15
+          },
+          {
+              "name": "Text_M249",
+              "type": "marine",
+              "point_range": 1000,
+              "area_range": 0,
+              "casualty_radius": 0,
+              "lethality": 0,
+              "prob_of_hit": 0,
+              "range":550,
+              "count":200,
+              "max_rate": 15
+          },
+          {
+              "name": "Text_M203",
+              "type": "marine",
+              "point_range": 150,
+              "area_range": 350,
+              "casualty_radius": 0,
+              "lethality": 0,
+              "prob_of_hit": 0,
+              "range":550,
+              "count":200,
+              "max_rate": 15
+          },
+          {
+              "name": "Text_M40A5",
+              "type": "marine",
+              "point_range": 800,
+              "area_range": 0,
+              "casualty_radius": 0,
+              "lethality": 0,
+              "prob_of_hit": 0,
+              "range":550,
+              "count":200,
+              "max_rate": 15
+          },
+          {
+              "name": "Text_M240B",
+              "type": "marine",
+              "point_range": 1800,
+              "area_range": 0,
+              "casualty_radius": 0,
+              "lethality": 0,
+              "prob_of_hit": 0,
+              "range":550,
+              "count":200,
+              "max_rate": 15
+          },
+          {
+              "name": "Text_MK153",
+              "type": "marine",
+              "point_range": 250,
+              "area_range": 400,
+              "casualty_radius": 0,
+              "lethality": 0,
+              "prob_of_hit": 0,
+              "range":550,
+              "count":200,
+              "max_rate": 15
+          },
+          {
+              "name": "Text_FIM-92",
+              "type": "marine",
+              "point_range": 4828,
+              "area_range": 0,
+              "casualty_radius": 0,
+              "lethality": 0,
+              "prob_of_hit": 0,
+              "range":550,
+              "count":200,
+              "max_rate": 15
+          },
+          {
+              "name": "Text_M224",
+              "type": "marine",
+              "he_range": 3500,
+              "wp_range": 3500,
+              "illum_range": 3200,
+              "point_range": 0,
+              "area_range": 0,
+              "casualty_radius": 30,
+              "lethality": 0,
+              "prob_of_hit": 0,
+              "range":550,
+              "count":200,
+              "max_rate": 15
+          },
+          {
+              "name": "Text_M252",
+              "type": "marine",
+              "he_range": 5700,
+              "wp_range": 4500,
+              "illum_range": 5100,
+              "point_range": 0,
+              "area_range": 0,
+              "casualty_radius": 35,
+              "lethality": 0,
+              "prob_of_hit": 0,
+              "range":550,
+              "count":200,
+              "max_rate": 15
+          },
+          {
+              "name": "Text_M777",
+              "type": "marine",
+              "point_range": 18100,
+              "rap_range": 30100,
+              "area_range": 0,
+              "casualty_radius": 50,
+              "lethality": 0,
+              "prob_of_hit": 0,
+              "range":550,
+              "count":200,
+              "max_rate": 15
+          },
+          {
+              "name": "Text_M240G",
+              "type": "marine",
+              "point_range": 1800,
+              "area_range": 0,
+              "casualty_radius": 0,
+              "lethality": 0,
+              "prob_of_hit": 0,
+              "range":550,
+              "count":200,
+              "max_rate": 15
+          },
+          {
+              "name": "Text_MK-19",
+              "type": "marine",
+              "point_range": 1500,
+              "area_range": 0,
+              "casualty_radius": 0,
+              "lethality": 0,
+              "prob_of_hit": 0,
+              "range":550,
+              "count":200,
+              "max_rate": 15
+          },
+          {
+              "name": "Text_M2",
+              "type": "marine",
+              "point_range": 1830,
+              "area_range": 0,
+              "casualty_radius": 0,
+              "lethality": 0,
+              "prob_of_hit": 0,
+              "range":550,
+              "count":200,
+              "max_rate": 15
+          },
+          {
+              "name": "Text_120",
+              "type": "marine",
+              "point_range": 4000,
+              "area_range": 0,
+              "casualty_radius": 0,
+              "lethality": 0,
+              "prob_of_hit": 0,
+              "range":550,
+              "count":200,
+              "max_rate": 15
+          },
+          {
+              "name": "Text_Mk-84",
+              "type": "marine",
+              "point_range": 222234,
+              "area_range": 0,
+              "casualty_radius": 366,
+              "lethality": 0,
+              "prob_of_hit": 0,
+              "range":550,
+              "count":200,
+              "max_rate": 15
+          },
+          {
+              "name": "Text_XM-218",
+              "type": "marine",
+              "point_range": 1830,
+              "area_range": 0,
+              "casualty_radius": 0,
+              "lethality": 0,
+              "prob_of_hit": 0,
+              "range":550,
+              "count":200,
+              "max_rate": 15
+          }
+        ]
+    },
+    "Health": {
+        "defense": 100,
+        "currenthealth": 100
+    },
+    "Mover": {
+        "maxmove": 100,
+
+        "lob": 0,
+        "x_pos": 0,
+        "y_pos": 0
+    },
+    "Detector": {
+        "visibility": 200
+    },    
+    "Container": {
+
+    	"guids": [],
+    	"inuse": "false"
+
+    },
+    "Embarker": {
+
+    	"state": "false",
+    	"parent": "0",
+    	"inuse": "true"
+
+    }
+}

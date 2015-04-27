@@ -1,0 +1,14 @@
+{
+    "light_rain": {
+        "movement": 0.80,
+        "visibility": 0.60
+    },
+    "heavy_rain": {
+        "movement": 0.60,
+        "visibility": 0.30
+    },
+    "snow": {
+        "movement": 0.40,
+        "visibility": 0.60
+    }
+}

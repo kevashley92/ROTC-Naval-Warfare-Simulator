@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &139400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22439400}
+  - 222: {fileID: 22239400}
+  - 114: {fileID: 11439402}
+  - 61: {fileID: 6139400}
+  - 114: {fileID: 11409832}
+  - 114: {fileID: 11485864}
+  m_Layer: 5
+  m_Name: UIFrame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &6139400
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139400}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 932, y: 644}
+  m_Center: {x: 0, y: 0}
+--- !u!114 &11409832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f7cd29f9d897fa4db58b0398aea3184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MapEditor: {fileID: 0}
+--- !u!114 &11439402
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &11485864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2a92a48375e7a4c9328f3f6ba3a94a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileBrowser: {fileID: 0}
+  saveDialog: {fileID: 0}
+  UnitMenu: {fileID: 178602, guid: bcd0a3e97a283fe489f14b0ce78b531e, type: 2}
+  mapCamera: {fileID: 0}
+  unitComboBox: {fileID: 0}
+  MapButton: {fileID: 0}
+  unitmanager: {fileID: 0}
+  LoadButton: {fileID: 0}
+  SaveButton: {fileID: 0}
+  surface: {fileID: 21300000, guid: 9fd31c6c5b82b194aaedd79edbcc07d8, type: 3}
+  subsurface: {fileID: 21300000, guid: 4fcb018882345dc4ab1aee8769114a0e, type: 3}
+  air: {fileID: 21300000, guid: c54e9348315f60143a037f936ac2f424, type: 3}
+  marine: {fileID: 21300000, guid: 8f78d4f195f2c2743840b965094d54e3, type: 3}
+  TeamComboBox: {fileID: 0}
+  InfoBoxPrefab: {fileID: 127718, guid: 5caa7e62c1355284b9d43577eca7a148, type: 2}
+--- !u!222 &22239400
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139400}
+--- !u!224 &22439400
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -778, y: -371.5}
+  m_SizeDelta: {x: 932, y: 644}
+  m_Pivot: {x: .5, y: .5}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 139400}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

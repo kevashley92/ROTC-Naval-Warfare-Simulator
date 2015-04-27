@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 984965a3518310047a6bf3543f0a19e6
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - device_clinking: {fileID: 8300000, guid: 35ec826cc32181347895a4ec197ddd0e, type: 3}
+  - fabric_rustling: {fileID: 8300000, guid: 2a0b52e9e9be6ff4f8a3d594aed3b306, type: 3}
+  - startup: {fileID: 8300000, guid: b66d9eb5799a0df438580dd6bf26f398, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

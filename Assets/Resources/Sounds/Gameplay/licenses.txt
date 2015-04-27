@@ -1,0 +1,40 @@
+Name: 		button_press
+Name:		button_release
+Original:	elevator-button-press-2
+Artist:		mredig
+License: 	Attribution
+		http://creativecommons.org/licenses/by/3.0/
+
+Name:		radar_pulse
+Original:	electronic-explosion
+Artist:		paulss83
+License: 	Attribition
+		http://creativecommons.org/licenses/by/3.0/
+		Modified
+
+Name:		marine_unit_near_death
+Name:		marine_unit_death
+Original:	heatbeat-normal-faster-normal
+Artist:		Benboncan
+License:	Attribution
+		http://creativecommons.org/licenses/by/3.0/
+		Modified
+
+Name:		navy_unit_hit_impact
+Original:	kickelectronverb
+Artist:		NoiseCollector
+License: 	Attribution
+		http://creativecommons.org/licenses/by/3.0/
+		Modified
+Original:	explosion-3
+Artist:		harpoyume
+License: 	Attribution Noncommercial
+		http://creativecommons.org/licenses/by-nc/3.0/
+		Modified
+
+Name:		navy_unit_death
+Original:	medium-explosion
+Artist:		ryansnook
+License: 	Attribution Noncommercial
+		http://creativecommons.org/licenses/by-nc/3.0/
+		Modified

@@ -1,0 +1,55 @@
+{
+    "GlobalSettings": {
+        "half_movement": 0,
+        "no_aircraft": 0,
+        "no_detector": 0,
+        "no_movement": 0,
+        "no_weapons": 0,
+        "retaliation_p": 0,
+        "retaliation_d": 0,
+        "w_index": 0
+    },
+    "TurnManager": {
+        "count": 0
+    },
+    "Weather": {
+            "light_rain": {
+                "movement": 0.8,
+                "visibility": 0.6,
+                "index": 0
+            },
+            "heavy_rain": {
+                "movement": 0.6,
+                "visibility": 0.3,
+                "index": 1
+            },
+            "snow": {
+                "movement": 0.4,
+                "visibility": 0.6,
+                "index": 2
+            }
+    },
+    "Teams":
+        [
+          {
+            "class": "team",
+            "team_name" : "default",
+            "index": 0,
+            "red":0,
+            "green":0,
+            "blue":0
+          }
+        ]
+    ,
+    "Runways": {
+
+    	"guids":[]
+
+  	},
+  	"Objective": {
+
+  		"text": "Default Objective",
+  		"ind": [{"class": "obj", "value": "Indvidual Directive"}]
+
+  	}
+}

@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: a23dd06ac71ad43408664d57f82f3e4f
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - menuManager: {instanceID: 0}
+  - menuPrefab: {instanceID: 0}
+  - press: {fileID: 8300000, guid: 32fdc17586748d94ca689ff062d8356a, type: 3}
+  - release: {fileID: 8300000, guid: e0843533763f3994cab2b3f61cd0fad1, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
